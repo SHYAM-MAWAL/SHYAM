@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'SHYAM MAWAL';
+
+  msg="";
+  nCnt: number=0;
+  clickMe(){
+    this.nCnt = this.nCnt + 1;
+    this.msg ="clicked" + this.nCnt;
+
+  }
+  
 }
